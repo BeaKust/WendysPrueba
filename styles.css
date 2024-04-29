@@ -1,4 +1,9 @@
-
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    position: relative;
+    min-height: 100vh;
+}
 
 #encabezado {
     background-color: #cd2028;
@@ -53,3 +58,34 @@
     display: flex; /* Usa flexbox para alinear los elementos */
     justify-content: center; /* Centra horizontalmente los elementos */
 }
+
+footer {
+    height: 500px;
+    bottom: 0;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footer_container{
+    width: 4.5%; /* Reducir al 50% del tamaño original */
+    height: auto; /* Mantener la relación de aspecto */
+    float: left;
+    margin-left: 350px;
+}
+
+.texto_pie{
+    display: flex;
+    width: 10%;
+    font-size: 5px;
+    margin-left: 430px;
+    margin-top: 28px;
+    padding-left: 150px;
+}
+
+.margen_intertexto{
+    margin-left: 60px;
+}
+
